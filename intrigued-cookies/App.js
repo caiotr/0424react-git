@@ -17,6 +17,16 @@ source={require('./assets/menu.png')}
   style={styles.image}
   source={require('./assets/pokemonicon.jpg') }
 />
+ <Image
+  style={styles.image}
+  source={require('./assets/ariaicon.jpg') }
+/>
+ <Image
+  style={styles.image}
+  source={require('./assets/zeroicon.jpg') }
+/>
+
+
 
       </View>
     </View>
@@ -52,7 +62,7 @@ const styles = StyleSheet.create({
   },
   image: {
   width: '100%',
-  height: '20%',
+  height: '13%',
   justifyContent:'top',
   alignItems:'top',
 },
